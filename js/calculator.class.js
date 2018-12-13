@@ -77,7 +77,6 @@ It should be able to add, subtract, multiply, and divide. The clear button shoul
 					this.setNewNum(this.computeAnswer());
 					window.CalculatorUI.updateViewer(this.newNum);
 				}
-				console.log(window.Calculator);	
 			}
 			this.operand = operand;
 			this.isLastButtonEquals = false
@@ -96,7 +95,6 @@ It should be able to add, subtract, multiply, and divide. The clear button shoul
 					}
 					this.resetNumberString();
 					window.CalculatorUI.updateViewer(this.newNum)
-					console.log(window.Calculator);
 				}
 				this.isLastButtonEquals = true;
 			}

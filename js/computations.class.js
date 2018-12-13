@@ -36,7 +36,6 @@
 			if (typeof callback === 'undefined') callback = null;
 			if (callback !== null) {
 				if (numTwo === 0) {
-					console.log('division by 0');
 					callback(null);
 				} else {
 					var divided = parseFloat(numOne) / parseFloat(numTwo);
